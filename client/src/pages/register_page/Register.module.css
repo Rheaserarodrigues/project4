@@ -1,0 +1,53 @@
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+
+.sheetImage {
+    width: 35%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sheetForm {
+    width: 35%;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Styles for screens with a width less than 1024 pixels */
+@media screen and (max-width: 1023px) {
+    /* Your styles here */
+    .sheetImage {
+
+        display: none;
+
+    }
+
+    .sheetForm {
+        width: 85%;
+        max-width: 400px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+}

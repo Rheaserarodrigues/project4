@@ -1,0 +1,38 @@
+
+
+.svg-class-name {
+    width: 400px;
+    height: auto;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .svg-class-name {
+        width: 300px; /* Adjust as needed for your design */
+        height: auto;
+    }
+}
+
+/* Media query for iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .svg-class-name {
+        width: 400px; /* Adjust as needed for your design */
+        height: auto;
+    }
+}
+
+/* Media query for laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .svg-class-name {
+        width: 400px; /* Adjust as needed for your design */
+        height: auto;
+    }
+}
+
+/* Media query for desktops */
+@media only screen and (min-width: 1366px) {
+    .svg-class-name {
+        width: 500px;
+        height: auto;
+    }
+}
